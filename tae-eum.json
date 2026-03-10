@@ -1,0 +1,71 @@
+{
+  "id": "tae-eum",
+  "name_en": "Tae-Eum",
+  "name_ko": "태음인",
+  "name_hanja": "太陰人",
+  "meaning": "Greater Yin",
+  "population_pct": "~50",
+  "tagline": "Patient · Enduring · Accumulating · Steady",
+  "organ_balance": {
+    "strong": {
+      "organ": "Liver",
+      "korean": "간",
+      "function": "Energy storage, absorption, nutrient accumulation, inward gathering"
+    },
+    "weak": {
+      "organ": "Lung",
+      "korean": "폐",
+      "function": "Respiratory system, dispersal, outward energy projection, exhaling and releasing"
+    },
+    "note": "In SCM, organs refer to functional systems, not strict anatomical organs. Liver = storage/absorption function. Lung = dispersal/respiratory function."
+  },
+  "thermal_nature": "neutral-warm",
+  "body_characteristics": {
+    "build": "Tends toward a sturdier, thicker frame. Well-developed waist and abdominal area. Strong bones and musculature.",
+    "head_neck": "Broader face, often with thicker features. Steady, calm expression.",
+    "metabolism": "Slow metabolism, excels at storing energy and nutrients, difficulty dispersing and expelling. Gains weight most easily of all types.",
+    "vulnerabilities": ["Respiratory system (asthma, bronchitis, skin)", "Circulatory stagnation", "Weight gain and metabolic syndrome", "Sluggish elimination"]
+  },
+  "personality": {
+    "seong_innate": "Patient, persistent, reliable, steady. Strong endurance and willpower. Conservative and methodical in approach.",
+    "jeong_emotion": "Prone to overindulgence and comfort-seeking. Can become stubborn or inert. Reserved but deeply loyal.",
+    "strengths": ["Exceptional perseverance", "Reliable and trustworthy", "Strong physical endurance", "Good at accumulating wealth and resources", "Calm under pressure"],
+    "weaknesses": ["Can be stubborn and resistant to change", "Tendency toward laziness or inertia", "Overindulgence in food and comfort", "Slow to start new endeavors", "May suppress emotions"]
+  },
+  "health_tendencies": {
+    "common_conditions": ["Obesity and metabolic syndrome", "Hypertension", "Hyperlipidemia", "Diabetes", "Respiratory conditions (asthma, chronic bronchitis)", "Skin conditions (eczema, dermatitis)", "Fatty liver", "Cardiovascular disease"],
+    "warning_signs": ["Rapid weight gain", "Persistent cough or phlegm", "Skin breakouts especially body acne", "Shortness of breath", "Excessive sweating with exertion"],
+    "protective_factors": ["Regular vigorous exercise (essential)", "Portion control", "Sweating through exercise (activates weak Lung function)", "Avoiding midnight snacking", "Foods that promote dispersal"]
+  },
+  "diet": {
+    "beneficial_foods": ["Beef (소고기)", "Radish (무)", "Bellflower root / doraji (도라지)", "Taro (토란)", "Walnuts (호두)", "Chestnuts (밤)", "Brown rice", "Beans and legumes", "Pear (배)", "Seaweed"],
+    "harmful_foods": ["Excessively greasy foods", "Refined sugars and processed snacks", "Late-night heavy meals", "Excessive alcohol", "Chicken in large amounts (more suitable for So-Eum)"],
+    "ginseng": "moderate_benefit",
+    "ginseng_reason": "Tae-Eum types can tolerate ginseng in moderation. However, because their Liver (storage) is already strong, excessive use may lead to internal stagnation. Better to use in combination with dispersing herbs.",
+    "thermal_principle": "Balance is key. Avoid extremely heavy, oily, or stagnation-promoting foods. Incorporate foods that aid dispersal and lung function."
+  },
+  "skincare": {
+    "skin_tendency": "Tends toward thicker, oilier skin. Prone to body acne, eczema, and dermatitis, especially when Lung function is impaired. Large pores. Skin may be dull from sluggish circulation.",
+    "beneficial_ingredients": ["Bellflower root extract (도라지)", "Mugwort (쑥)", "Job's tears / yulmu (율무)", "Ginseng in moderation (인삼)", "Pine (솔잎)", "Perilla (들깨)"],
+    "avoid_ingredients": ["Extremely heavy occlusives in excess", "Overly rich night creams", "Ingredients that further slow metabolism"],
+    "routine_principle": "Focus on circulation-boosting and detoxifying ingredients. Exfoliate regularly. Lightweight but nourishing formulas over heavy creams."
+  },
+  "herbs": {
+    "beneficial": [
+      {"name": "Mahwang (마황)", "name_latin": "Ephedra sinica", "action": "Opens Lung function, promotes sweating and dispersal — key herb for Tae-Eum"},
+      {"name": "Uihyin (의이인)", "name_latin": "Coix lacryma-jobi", "action": "Drains dampness, supports metabolism, benefits skin"},
+      {"name": "Kilgyeong (길경)", "name_latin": "Platycodon grandiflorus (bellflower root)", "action": "Opens Lung, expels phlegm, lifts energy upward"},
+      {"name": "Galgeun (갈근)", "name_latin": "Pueraria lobata (kudzu root)", "action": "Releases muscle tension, promotes circulation, clears heat"}
+    ],
+    "avoid": [
+      {"name": "Bujauh (부자)", "name_latin": "Aconitum carmichaelii", "reason": "Hot herb primarily for So-Eum; promotes storage which Tae-Eum already excels at"},
+      {"name": "Gangang (건강)", "name_latin": "Zingiber officinale (dried ginger)", "reason": "Warming interior herb better suited to cold constitutions"}
+    ],
+    "classic_formula": "Taeeumjowi-tang (태음조위탕) — regulates Liver excess and strengthens Lung deficiency"
+  },
+  "research_notes": {
+    "genetic": "GWAS studies have identified specific genetic loci associated with Tae-Eum type. Metabolomics confirms significantly different serum lipid profiles.",
+    "metabolic": "Research confirms significantly higher BMI, waist circumference, and metabolic syndrome rates in Tae-Eum types compared to other types eating similar diets. This aligns with the 130-year-old theory of strong Liver (storage) and weak Lung (dispersal).",
+    "heritability": "SCM type heritability estimated at 41–55% based on twin studies (2019). Tae-Eum physical traits show highest heritability among all four types."
+  }
+}

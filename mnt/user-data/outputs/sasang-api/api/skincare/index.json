@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "api": "Sasang Constitutional Medicine API",
+    "endpoint": "/api/skincare/index.json",
+    "description": "Hanbang (Korean medicine) skincare ingredients with constitutional compatibility ratings",
+    "rating_scale": {
+      "highly_beneficial": "Actively addresses this type's constitutional needs",
+      "beneficial": "Compatible and supportive for this type",
+      "neutral": "Neither helpful nor harmful in normal amounts",
+      "caution": "May aggravate this type's constitutional imbalance in high concentrations",
+      "avoid": "Contradicts this type's constitutional needs; likely to cause adverse reactions"
+    },
+    "note": "The Korean government requires products labeled as hanbang to contain at least 1% traditional Korean medicinal herbs."
+  },
+  "ingredients": [
+    {
+      "id": "ginseng",
+      "name_en": "Ginseng",
+      "name_ko": "인삼",
+      "name_latin": "Panax ginseng",
+      "thermal_nature": "warm",
+      "primary_action": "Qi tonic, anti-aging, brightening, firming",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "avoid", "reason": "Excessively warming for the hottest constitution. Can cause irritation, redness, and inflammation."},
+        "so-yang": {"rating": "avoid", "reason": "Adds unwanted heat. Can trigger breakouts, redness, and sensitivity in already hot skin."},
+        "tae-eum": {"rating": "beneficial", "reason": "Moderate warming supports circulation in skin prone to dullness. Use in combination with other ingredients."},
+        "so-eum": {"rating": "highly_beneficial", "reason": "Provides essential warmth and Qi to cold, pale, devitalized skin. Improves circulation and resilience."}
+      }
+    },
+    {
+      "id": "red-ginseng",
+      "name_en": "Red Ginseng",
+      "name_ko": "홍삼",
+      "name_latin": "Panax ginseng (steamed)",
+      "thermal_nature": "hot",
+      "primary_action": "Stronger than white ginseng: deep anti-aging, intense firming, circulation boost",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "avoid", "reason": "Even more heating than white ginseng. Strictly contraindicated."},
+        "so-yang": {"rating": "avoid", "reason": "Too heating. Will worsen heat-related skin issues."},
+        "tae-eum": {"rating": "caution", "reason": "Can be used carefully in small amounts for anti-aging, but monitor for congestion."},
+        "so-eum": {"rating": "highly_beneficial", "reason": "The deepest warming tonic for skin. Excellent for severely cold, devitalized skin."}
+      }
+    },
+    {
+      "id": "centella-asiatica",
+      "name_en": "Centella Asiatica / Cica",
+      "name_ko": "병풀",
+      "name_latin": "Centella asiatica",
+      "thermal_nature": "cool",
+      "primary_action": "Soothing, barrier repair, anti-inflammatory, wound healing",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "highly_beneficial", "reason": "Cooling and soothing — perfect for a hot constitution that needs calming."},
+        "so-yang": {"rating": "highly_beneficial", "reason": "Directly addresses heat, redness, and inflammation that So-Yang skin is prone to."},
+        "tae-eum": {"rating": "beneficial", "reason": "Good for skin barrier support and calming any inflammation."},
+        "so-eum": {"rating": "neutral", "reason": "Not harmful but doesn't address the core need for warming. Use in combination with warming ingredients."}
+      }
+    },
+    {
+      "id": "green-tea",
+      "name_en": "Green Tea",
+      "name_ko": "녹차",
+      "name_latin": "Camellia sinensis",
+      "thermal_nature": "cool",
+      "primary_action": "Antioxidant, oil control, anti-inflammatory, brightening",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "highly_beneficial", "reason": "Cooling antioxidant that supports hot constitutions."},
+        "so-yang": {"rating": "highly_beneficial", "reason": "Excellent for cooling, controlling oil, and reducing inflammation."},
+        "tae-eum": {"rating": "beneficial", "reason": "Antioxidant benefits with gentle detoxifying properties support circulation."},
+        "so-eum": {"rating": "caution", "reason": "Cooling nature may be too cold for sensitive So-Eum skin, especially in high concentrations."}
+      }
+    },
+    {
+      "id": "mugwort",
+      "name_en": "Mugwort",
+      "name_ko": "쑥",
+      "name_latin": "Artemisia princeps",
+      "thermal_nature": "warm",
+      "primary_action": "Calming, anti-inflammatory, blood circulation, detoxifying",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "caution", "reason": "Warming nature may be too much. Use only in highly diluted, cooling formulations."},
+        "so-yang": {"rating": "neutral", "reason": "Mugwort's anti-inflammatory benefits are useful, but its warming nature requires careful formulation for hot types."},
+        "tae-eum": {"rating": "highly_beneficial", "reason": "Promotes circulation and dispersal — exactly what sluggish Tae-Eum skin needs."},
+        "so-eum": {"rating": "highly_beneficial", "reason": "Warming, circulation-boosting, and calming. Perfect match for cold constitutions."}
+      }
+    },
+    {
+      "id": "licorice-root",
+      "name_en": "Licorice Root",
+      "name_ko": "감초",
+      "name_latin": "Glycyrrhiza glabra",
+      "thermal_nature": "neutral",
+      "primary_action": "Brightening, anti-inflammatory, harmonizing (used to balance other herbs)",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "beneficial", "reason": "Neutral nature makes it safe. Anti-inflammatory and brightening benefits useful."},
+        "so-yang": {"rating": "beneficial", "reason": "Calming and harmonizing. Helps reduce redness without adding heat."},
+        "tae-eum": {"rating": "beneficial", "reason": "Harmonizing effect supports other active ingredients."},
+        "so-eum": {"rating": "beneficial", "reason": "Neutral and gentle. Safe for sensitive So-Eum skin as a supporting ingredient."}
+      }
+    },
+    {
+      "id": "houttuynia-cordata",
+      "name_en": "Houttuynia Cordata / Fish Mint",
+      "name_ko": "어성초",
+      "name_latin": "Houttuynia cordata",
+      "thermal_nature": "cool",
+      "primary_action": "Antibacterial, detoxifying, pore-clearing, anti-acne",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "beneficial", "reason": "Cooling and detoxifying — useful for clearing heat from skin."},
+        "so-yang": {"rating": "highly_beneficial", "reason": "Directly targets heat-related acne and inflammation that So-Yang types experience."},
+        "tae-eum": {"rating": "beneficial", "reason": "Helps with pore congestion and body acne common in Tae-Eum types."},
+        "so-eum": {"rating": "caution", "reason": "Cool nature may be too cold for already cold constitutions. Use sparingly if needed."}
+      }
+    },
+    {
+      "id": "lotus",
+      "name_en": "Lotus",
+      "name_ko": "연꽃",
+      "name_latin": "Nelumbo nucifera",
+      "thermal_nature": "cool",
+      "primary_action": "Calming, moisturizing, antioxidant, pore-refining",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "highly_beneficial", "reason": "Cooling and calming — ideal for the hottest constitution."},
+        "so-yang": {"rating": "highly_beneficial", "reason": "Gentle cooling with moisturizing benefits. Excellent for sensitive, hot skin."},
+        "tae-eum": {"rating": "beneficial", "reason": "Pore-refining properties useful for larger-pored Tae-Eum skin."},
+        "so-eum": {"rating": "neutral", "reason": "Not harmful but the cooling nature doesn't match So-Eum's warming needs."}
+      }
+    },
+    {
+      "id": "cinnamon",
+      "name_en": "Cinnamon",
+      "name_ko": "계피",
+      "name_latin": "Cinnamomum cassia",
+      "thermal_nature": "hot",
+      "primary_action": "Warming, circulation-boosting, antibacterial, anti-aging",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "avoid", "reason": "Hot herb on the hottest constitution — will cause irritation and inflammation."},
+        "so-yang": {"rating": "avoid", "reason": "Adds fire to an already hot type. Can trigger redness, breakouts, sensitivity."},
+        "tae-eum": {"rating": "beneficial", "reason": "Warming boost to circulation helps combat dullness and stagnation."},
+        "so-eum": {"rating": "highly_beneficial", "reason": "Provides essential warming that cold constitutions deeply need. Boosts circulation to pale skin."}
+      }
+    },
+    {
+      "id": "job-tears",
+      "name_en": "Job's Tears / Yulmu",
+      "name_ko": "율무",
+      "name_latin": "Coix lacryma-jobi",
+      "thermal_nature": "cool",
+      "primary_action": "Brightening, pore-minimizing, moisture balancing, anti-blemish",
+      "constitutional_ratings": {
+        "tae-yang": {"rating": "beneficial", "reason": "Cooling with brightening benefits."},
+        "so-yang": {"rating": "beneficial", "reason": "Helps balance moisture and control blemishes without adding heat."},
+        "tae-eum": {"rating": "highly_beneficial", "reason": "Drains dampness, minimizes pores, and brightens dull skin — targets all Tae-Eum concerns."},
+        "so-eum": {"rating": "caution", "reason": "Cool and draining nature may deplete moisture and warmth from already dry, cold skin."}
+      }
+    }
+  ]
+}

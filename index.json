@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "api": "Sasang Constitutional Medicine API",
+    "version": "1.0.0",
+    "source": "hanbangtype.com",
+    "tradition": "Donguisusebowon (동의수세보원) by Lee Je-ma (이제마), 1894",
+    "license": "CC BY 4.0",
+    "disclaimer": "Educational information only. Not medical advice. Consult a licensed Korean medicine practitioner (한의사) for constitutional diagnosis."
+  },
+  "types": [
+    {
+      "id": "tae-yang",
+      "name_en": "Tae-Yang",
+      "name_ko": "태양인",
+      "name_hanja": "太陽人",
+      "meaning": "Greater Yang",
+      "population_pct": "< 1",
+      "tagline": "Visionary · Rare · Outward-reaching · Intense",
+      "strong_organ": "Lung (respiratory / dispersal)",
+      "weak_organ": "Liver (storage / absorption)",
+      "thermal_nature": "hot",
+      "detail_url": "/api/type/tae-yang.json"
+    },
+    {
+      "id": "so-yang",
+      "name_en": "So-Yang",
+      "name_ko": "소양인",
+      "name_hanja": "少陽人",
+      "meaning": "Lesser Yang",
+      "population_pct": "~30",
+      "tagline": "Runs hot · Moves fast · Feels everything loudly",
+      "strong_organ": "Spleen (digestion / intake)",
+      "weak_organ": "Kidney (excretion / cooling)",
+      "thermal_nature": "hot",
+      "detail_url": "/api/type/so-yang.json"
+    },
+    {
+      "id": "tae-eum",
+      "name_en": "Tae-Eum",
+      "name_ko": "태음인",
+      "name_hanja": "太陰人",
+      "meaning": "Greater Yin",
+      "population_pct": "~50",
+      "tagline": "Patient · Enduring · Accumulating · Steady",
+      "strong_organ": "Liver (storage / absorption)",
+      "weak_organ": "Lung (respiratory / dispersal)",
+      "thermal_nature": "neutral-warm",
+      "detail_url": "/api/type/tae-eum.json"
+    },
+    {
+      "id": "so-eum",
+      "name_en": "So-Eum",
+      "name_ko": "소음인",
+      "name_hanja": "少陰人",
+      "meaning": "Lesser Yin",
+      "population_pct": "~20",
+      "tagline": "Runs cold · Gentle · Precise · Introspective",
+      "strong_organ": "Kidney (excretion / cooling)",
+      "weak_organ": "Spleen (digestion / intake)",
+      "thermal_nature": "cold",
+      "detail_url": "/api/type/so-eum.json"
+    }
+  ]
+}

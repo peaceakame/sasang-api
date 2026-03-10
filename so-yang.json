@@ -1,0 +1,72 @@
+{
+  "id": "so-yang",
+  "name_en": "So-Yang",
+  "name_ko": "소양인",
+  "name_hanja": "少陽人",
+  "meaning": "Lesser Yang",
+  "population_pct": "~30",
+  "tagline": "Runs hot · Moves fast · Feels everything loudly",
+  "organ_balance": {
+    "strong": {
+      "organ": "Spleen",
+      "korean": "비",
+      "function": "Digestion, intake, nutrient processing, upward and outward energy movement"
+    },
+    "weak": {
+      "organ": "Kidney",
+      "korean": "신",
+      "function": "Excretion, cooling, water regulation, downward and inward energy conservation"
+    },
+    "note": "In SCM, organs refer to functional systems, not strict anatomical organs. Spleen = digestive/intake function. Kidney = excretory/cooling function."
+  },
+  "thermal_nature": "hot",
+  "body_characteristics": {
+    "build": "Often well-developed chest and upper body; hips and lower body may be narrower or lighter",
+    "head_neck": "Alert, bright expression; quick, sharp eyes",
+    "metabolism": "Fast metabolism, generates heat easily, burns energy quickly, can lose weight easily under stress",
+    "vulnerabilities": ["Kidney and urinary system", "Lower back weakness", "Tendency to overheat internally", "Constipation from dryness"]
+  },
+  "personality": {
+    "seong_innate": "Extroverted, quick-witted, action-oriented, socially adept. Strong sense of justice and righteous anger.",
+    "jeong_emotion": "Easily irritable when frustrated; can cycle between anger and melancholy if unmanaged. Quick to act, quick to cool down.",
+    "strengths": ["Fast learner", "Decisive action-taker", "Socially charismatic", "Strong sense of fairness", "Adaptable"],
+    "weaknesses": ["Impatient", "May start many projects without finishing", "Prone to burnout from overactivity", "Can be sharp-tongued", "Difficulty with sustained focus"]
+  },
+  "health_tendencies": {
+    "common_conditions": ["Urinary tract issues", "Constipation", "Lower back pain", "Heat-related skin conditions (acne, redness, rosacea)", "Insomnia from excess heat", "Kidney inflammation"],
+    "warning_signs": ["Persistent heat sensation in chest", "Chronic constipation", "Burning urination", "Unexplained anxiety with insomnia"],
+    "protective_factors": ["Cooling foods and drinks", "Adequate hydration", "Stress management", "Avoiding stimulants", "Regular sleep schedule"]
+  },
+  "diet": {
+    "beneficial_foods": ["Watermelon (수박)", "Cucumber (오이)", "Barley (보리)", "Mung beans (녹두)", "Pork", "Fresh vegetables", "Pear (배)", "Lettuce", "Oysters", "Crab"],
+    "harmful_foods": ["Ginseng (인삼)", "Chicken in excess", "Lamb/goat", "Excessive garlic and chili", "Hot spicy stews", "Alcohol", "Coffee in excess"],
+    "ginseng": "avoid",
+    "ginseng_reason": "Ginseng is a warming herb that raises internal heat. So-Yang types already run hot — ginseng can trigger headaches, insomnia, skin breakouts, palpitations, and elevated blood pressure.",
+    "thermal_principle": "Prioritize cool and cold-natured foods. Avoid heating spices and warming herbs. Stay hydrated."
+  },
+  "skincare": {
+    "skin_tendency": "Prone to oiliness, acne, redness, rosacea, inflammation. Heat manifests visibly in the skin. Sensitive and reactive.",
+    "beneficial_ingredients": ["Green tea (녹차)", "Centella asiatica (병풀)", "Mugwort (쑥) in cooling formulations", "Bamboo sap (죽력)", "Houttuynia cordata (어성초)", "Lotus (연꽃)", "Licorice root (감초)"],
+    "avoid_ingredients": ["Ginseng (인삼)", "Cinnamon (계피)", "Ginger in high concentrations", "Heavy oils and occlusives", "Heating essential oils"],
+    "routine_principle": "Focus on cooling, anti-inflammatory, lightweight hydration. Avoid rich creams and warming formulas. Gel textures over heavy creams."
+  },
+  "herbs": {
+    "beneficial": [
+      {"name": "Sukjihwang (숙지황)", "name_latin": "Rehmannia glutinosa (processed)", "action": "Nourishes Kidney Yin, cools internal heat, moistens dryness"},
+      {"name": "Sansuyu (산수유)", "name_latin": "Cornus officinalis", "action": "Strengthens Kidney, astringes essence"},
+      {"name": "Taeksa (택사)", "name_latin": "Alisma plantago-aquatica", "action": "Promotes urination, clears damp-heat"},
+      {"name": "Bokryeong (복령)", "name_latin": "Poria cocos", "action": "Calms the spirit, drains dampness, supports Kidney"}
+    ],
+    "avoid": [
+      {"name": "Insam (인삼)", "name_latin": "Panax ginseng", "reason": "Warming tonic that worsens internal heat"},
+      {"name": "Hwanggi (황기)", "name_latin": "Astragalus membranaceus", "reason": "Warming Qi tonic; raises heat in So-Yang types"},
+      {"name": "Bujauh (부자)", "name_latin": "Aconitum carmichaelii", "reason": "Extremely hot herb; contraindicated for hot constitutions"}
+    ],
+    "classic_formula": "Hyeongbangjihwang-tang (형방지황탕) — based on Yukmi-jihwang-hwan with additions to clear heat and strengthen Kidney"
+  },
+  "research_notes": {
+    "genetic": "GWAS studies have identified genetic loci associated with So-Yang type, showing distinct metabolomic profiles compared to other types.",
+    "metabolic": "Metabolomics research shows distinct serum profiles with markers of higher metabolic rate and heat generation.",
+    "heritability": "SCM type heritability estimated at 41–55% based on twin studies (2019). So-Yang traits show significant correlation in monozygotic twins."
+  }
+}

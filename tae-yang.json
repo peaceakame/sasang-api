@@ -1,0 +1,70 @@
+{
+  "id": "tae-yang",
+  "name_en": "Tae-Yang",
+  "name_ko": "태양인",
+  "name_hanja": "太陽人",
+  "meaning": "Greater Yang",
+  "population_pct": "< 1",
+  "tagline": "Visionary · Rare · Outward-reaching · Intense",
+  "organ_balance": {
+    "strong": {
+      "organ": "Lung",
+      "korean": "폐",
+      "function": "Respiratory system, dispersal, outward energy projection, exhaling and releasing"
+    },
+    "weak": {
+      "organ": "Liver",
+      "korean": "간",
+      "function": "Energy storage, absorption, nutrient accumulation, inward gathering"
+    },
+    "note": "In SCM, organs refer to functional systems, not strict anatomical organs. Lung = dispersal/respiratory function. Liver = storage/absorption function."
+  },
+  "thermal_nature": "hot",
+  "body_characteristics": {
+    "build": "Tends toward a strong upper body with a prominent nape and chest area; lower body may be relatively less developed",
+    "head_neck": "Well-developed nape region; strong, upright posture",
+    "metabolism": "High dispersal energy; difficulty retaining and storing nutrients",
+    "vulnerabilities": ["Weak lower body and legs", "Poor nutrient absorption", "Digestive weakness in the lower gastrointestinal tract"]
+  },
+  "personality": {
+    "seong_innate": "Creative, visionary, ambitious, socially outward-reaching. Strong sense of justice and bold in action.",
+    "jeong_emotion": "Prone to deep sadness that can turn to anger. Intense leadership energy.",
+    "strengths": ["Visionary thinking", "Charismatic leadership", "Strong moral conviction", "Decisiveness"],
+    "weaknesses": ["Can be domineering or self-righteous", "Difficulty listening to others", "Prone to overexertion", "May neglect self-care"]
+  },
+  "health_tendencies": {
+    "common_conditions": ["Leg weakness", "Lower body fatigue", "Esophageal discomfort", "Vomiting tendency", "Urinary issues"],
+    "warning_signs": ["Persistent leg weakness", "Difficulty swallowing", "Excessive sweating with fatigue"],
+    "protective_factors": ["Regular gentle exercise for lower body", "Cooling foods", "Adequate rest", "Avoiding overwork"]
+  },
+  "diet": {
+    "beneficial_foods": ["Buckwheat (메밀)", "Seafood and shellfish", "Cold-natured vegetables (cucumber, lettuce)", "Grapes", "Persimmon", "Pine nuts", "Light, cool foods"],
+    "harmful_foods": ["Greasy or heavy foods", "Excessively spicy foods", "Rich meats in large quantity", "Overly warming foods"],
+    "ginseng": "strictly_avoid",
+    "ginseng_reason": "Ginseng is a powerfully warming herb that raises internal heat. Tae-Yang already has maximum Yang energy — adding ginseng can cause severe headaches, hypertension, nosebleeds, and dangerous heat accumulation.",
+    "thermal_principle": "Prioritize cool and cold-natured foods to counterbalance the inherently hot constitution"
+  },
+  "skincare": {
+    "skin_tendency": "May experience heat-related skin issues; skin can be dry due to high dispersal energy depleting moisture",
+    "beneficial_ingredients": ["Centella asiatica (병풀)", "Green tea (녹차)", "Lotus (연꽃)", "Bamboo sap (죽력)", "Licorice root (감초)"],
+    "avoid_ingredients": ["Ginseng (인삼)", "Cinnamon (계피)", "Ginger-heavy formulas (생강)", "Strongly warming herbal extracts"],
+    "routine_principle": "Focus on hydration, cooling, and calming. Avoid heating or stimulating formulas."
+  },
+  "herbs": {
+    "beneficial": [
+      {"name": "Ogapi (오가피)", "name_latin": "Acanthopanax", "action": "Strengthens lower body without adding heat"},
+      {"name": "Mohgwa (모과)", "name_latin": "Chaenomeles sinensis", "action": "Supports leg and joint function"},
+      {"name": "Songyeop (송엽)", "name_latin": "Pine needle", "action": "Cooling, supports respiratory function"}
+    ],
+    "avoid": [
+      {"name": "Insam (인삼)", "name_latin": "Panax ginseng", "reason": "Excessively warming; dangerous for this constitution"},
+      {"name": "Nokyong (녹용)", "name_latin": "Deer antler", "reason": "Strongly warming tonic; contraindicated"},
+      {"name": "Gyepi (계피)", "name_latin": "Cinnamomum cassia", "reason": "Warming herb that adds heat to already hot constitution"}
+    ]
+  },
+  "research_notes": {
+    "rarity": "Tae-Yang is the rarest type, comprising less than 1% of the Korean population. Some researchers debate whether it exists as a distinct clinical entity due to extremely low prevalence.",
+    "genetic": "Limited genetic studies exist due to small sample sizes. The rarity makes large-scale research challenging.",
+    "heritability": "Overall SCM type heritability estimated at 41–55% based on twin studies (2019)."
+  }
+}

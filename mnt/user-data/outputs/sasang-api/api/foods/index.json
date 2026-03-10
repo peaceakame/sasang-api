@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "api": "Sasang Constitutional Medicine API",
+    "endpoint": "/api/foods/index.json",
+    "description": "Food recommendations organized by constitutional type based on thermal nature and organ affinity",
+    "principle": "In Sasang medicine, foods are classified by thermal nature (hot, warm, neutral, cool, cold) and matched to constitutional needs. Cold constitutions need warming foods; hot constitutions need cooling foods."
+  },
+  "types": {
+    "tae-yang": {
+      "thermal_need": "cool_to_cold",
+      "core_principle": "Light, cool foods that do not add heat. Support the weak Liver (absorption) without overloading it.",
+      "beneficial": {
+        "grains": ["Buckwheat (메밀)", "Rice"],
+        "proteins": ["Seafood", "Shellfish (clams, oysters, shrimp)", "Light fish"],
+        "vegetables": ["Cucumber (오이)", "Lettuce (상추)", "Cabbage (양배추)"],
+        "fruits": ["Grapes (포도)", "Persimmon (감)", "Cherry"],
+        "other": ["Pine nuts (잣)"]
+      },
+      "avoid": {
+        "categories": ["Heavy meats in excess", "Greasy and fried foods", "Excessively spicy foods", "Warming tonics"],
+        "specific": ["Ginseng (인삼)", "Deer antler (녹용)", "Cinnamon (계피)", "Excessive garlic"]
+      }
+    },
+    "so-yang": {
+      "thermal_need": "cool_to_cold",
+      "core_principle": "Cooling, hydrating foods that support the weak Kidney and counteract internal heat. Avoid anything that adds fire.",
+      "beneficial": {
+        "grains": ["Barley (보리)", "Mung beans (녹두)", "Red beans (팥)"],
+        "proteins": ["Pork (돼지고기)", "Duck (오리)", "Oysters (굴)", "Crab (게)", "Tofu"],
+        "vegetables": ["Cucumber (오이)", "Lettuce (상추)", "Celery", "Zucchini (호박)", "Sprouts"],
+        "fruits": ["Watermelon (수박)", "Pear (배)", "Banana", "Melon", "Strawberry"],
+        "other": ["Green tea (녹차)", "Barley tea (보리차)"]
+      },
+      "avoid": {
+        "categories": ["Spicy foods", "Warming herbs and spices", "Alcohol", "Stimulants"],
+        "specific": ["Ginseng (인삼)", "Chicken in excess (닭고기)", "Lamb/goat (양고기)", "Garlic in excess (마늘)", "Chili pepper in excess (고추)", "Coffee in excess"]
+      }
+    },
+    "tae-eum": {
+      "thermal_need": "balanced_with_dispersing",
+      "core_principle": "Foods that support the weak Lung (dispersal) function and prevent excessive accumulation. Balance storage with circulation.",
+      "beneficial": {
+        "grains": ["Brown rice (현미)", "Beans and legumes (콩류)", "Millet (조)"],
+        "proteins": ["Beef (소고기)", "Cod", "Mackerel"],
+        "vegetables": ["Radish (무)", "Bellflower root / doraji (도라지)", "Taro (토란)", "Lotus root (연근)", "Seaweed (해초)"],
+        "fruits": ["Pear (배)", "Plum (자두)", "Walnut (호두)", "Chestnut (밤)", "Ginkgo nut (은행)"],
+        "other": ["Job's tears tea / yulmu-cha (율무차)"]
+      },
+      "avoid": {
+        "categories": ["Excessively greasy or heavy foods", "Late-night heavy meals", "Refined sugars", "Excessive alcohol"],
+        "specific": ["Excessive white rice (promotes storage)", "Sweet desserts in excess", "Processed foods"]
+      }
+    },
+    "so-eum": {
+      "thermal_need": "warm_to_hot",
+      "core_principle": "Warming, easily digestible foods that strengthen the weak Spleen (digestion) and provide internal warmth. Cook everything.",
+      "beneficial": {
+        "grains": ["Glutinous rice (찹쌀)", "White rice (well-cooked)", "Oats"],
+        "proteins": ["Chicken (닭고기)", "Lamb/goat (양고기)", "Pheasant", "Anchovy (멸치)", "Shrimp (새우)"],
+        "vegetables": ["Ginger (생강)", "Garlic (마늘)", "Leek (부추)", "Green onion (파)", "Mustard greens (겨자)"],
+        "fruits": ["Jujube / daechu (대추)", "Apple", "Peach (복숭아)", "Tangerine (귤)"],
+        "other": ["Cinnamon tea / gyepi-cha (계피차)", "Ginger tea / saenggang-cha (생강차)", "Ginseng tea / insam-cha (인삼차)"]
+      },
+      "avoid": {
+        "categories": ["Cold raw foods", "Ice-cold beverages", "Cold-natured fruits in excess", "Raw salads"],
+        "specific": ["Watermelon (수박) in excess", "Barley (보리) in excess", "Mung beans (녹두) in excess", "Pork in excess (돼지고기)", "Persimmon (감) in excess", "Ice cream"]
+      }
+    }
+  }
+}

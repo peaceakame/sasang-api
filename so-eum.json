@@ -1,0 +1,73 @@
+{
+  "id": "so-eum",
+  "name_en": "So-Eum",
+  "name_ko": "소음인",
+  "name_hanja": "少陰人",
+  "meaning": "Lesser Yin",
+  "population_pct": "~20",
+  "tagline": "Runs cold · Gentle · Precise · Introspective",
+  "organ_balance": {
+    "strong": {
+      "organ": "Kidney",
+      "korean": "신",
+      "function": "Excretion, cooling, water regulation, downward and inward energy conservation"
+    },
+    "weak": {
+      "organ": "Spleen",
+      "korean": "비",
+      "function": "Digestion, intake, nutrient processing, upward and outward energy movement"
+    },
+    "note": "In SCM, organs refer to functional systems, not strict anatomical organs. Kidney = excretory/cooling function. Spleen = digestive/intake function."
+  },
+  "thermal_nature": "cold",
+  "body_characteristics": {
+    "build": "Tends toward a slender, smaller frame. Well-developed hip area relative to chest. Delicate features.",
+    "head_neck": "Softer features, gentle expression. May have a smaller frame overall.",
+    "metabolism": "Slow and cold. Difficulty generating warmth and digestive fire. Tends toward poor appetite and slow digestion.",
+    "vulnerabilities": ["Weak digestion and poor appetite", "Cold extremities", "Low energy and fatigue", "Susceptibility to cold and damp conditions", "Abdominal pain and diarrhea"]
+  },
+  "personality": {
+    "seong_innate": "Introspective, gentle, meticulous, home-oriented. High attention to detail and strong organizational abilities.",
+    "jeong_emotion": "Higher harm-avoidance scores (scientifically validated). Cautious, can become anxious or insecure. Tendency toward worry and overthinking.",
+    "strengths": ["Meticulous and detail-oriented", "Loyal and caring", "Strong organizational skills", "Thoughtful decision-making", "Good at creating comfortable environments"],
+    "weaknesses": ["Excessive worry and anxiety", "Indecisiveness", "Low physical stamina", "Can be overly passive", "Difficulty asserting boundaries"]
+  },
+  "health_tendencies": {
+    "common_conditions": ["Digestive disorders (indigestion, bloating, diarrhea)", "Cold sensitivity", "Chronic fatigue", "Abdominal pain", "Poor circulation (cold hands and feet)", "Allergic conditions", "Low blood pressure"],
+    "warning_signs": ["Persistent diarrhea with cold abdomen", "Extreme fatigue with pallor", "Cold sweats", "Loss of appetite lasting more than a few days"],
+    "protective_factors": ["Warm foods and beverages (essential)", "Regular small meals rather than large ones", "Keeping the abdomen warm", "Gentle exercise (walking, yoga)", "Avoiding cold environments and cold foods"]
+  },
+  "diet": {
+    "beneficial_foods": ["Chicken (닭고기)", "Lamb/goat (양고기)", "Ginger (생강)", "Jujube / daechu (대추)", "Cinnamon (계피)", "Garlic (마늘)", "Glutinous rice (찹쌀)", "Leeks", "Black pepper", "Warm soups and stews"],
+    "harmful_foods": ["Cold raw foods (sashimi, raw salads in excess)", "Ice-cold drinks", "Watermelon and cold-natured fruits in excess", "Barley (보리) in excess", "Mung beans (녹두) in excess", "Pork in excess (cooling meat)"],
+    "ginseng": "highly_beneficial",
+    "ginseng_reason": "Ginseng is a warming herb that strengthens digestive function (Spleen Qi) — exactly what So-Eum types lack. It provides warmth, energy, and improves appetite and nutrient absorption. This is the type that benefits most from ginseng.",
+    "thermal_principle": "Prioritize warm and hot-natured foods. Cook rather than eat raw. Ginger, cinnamon, and warming spices are medicine."
+  },
+  "skincare": {
+    "skin_tendency": "Tends toward dry, thin, pale skin. Poor circulation leads to dull complexion. Sensitive to cold weather. May be prone to dryness-related conditions.",
+    "beneficial_ingredients": ["Ginseng (인삼)", "Red ginseng (홍삼)", "Jujube extract (대추)", "Royal jelly", "Ginger extract (생강)", "Cinnamon extract (계피)", "Astragalus / hwanggi (황기)", "Rich nourishing oils"],
+    "avoid_ingredients": ["Excessively cooling ingredients", "Strong astringents that dry the skin", "Menthol or camphor in high concentrations", "Alcohol-heavy toners"],
+    "routine_principle": "Focus on warming, nourishing, and circulation-boosting. Rich creams and oils over lightweight gels. Protect skin barrier aggressively."
+  },
+  "herbs": {
+    "beneficial": [
+      {"name": "Insam (인삼)", "name_latin": "Panax ginseng", "action": "Warms Spleen, strengthens digestion, boosts Qi — the most important herb for So-Eum"},
+      {"name": "Hwanggi (황기)", "name_latin": "Astragalus membranaceus", "action": "Strengthens defensive Qi, supports digestion, boosts energy"},
+      {"name": "Baekchul (백출)", "name_latin": "Atractylodes macrocephala", "action": "Strengthens Spleen, dries dampness, improves appetite"},
+      {"name": "Bujauh (부자)", "name_latin": "Aconitum carmichaelii (processed)", "action": "Powerfully warming; rescues Yang collapse, warms interior cold"},
+      {"name": "Gangang (건강)", "name_latin": "Zingiber officinale (dried ginger)", "action": "Warms the middle, dispels cold, restores digestive fire"}
+    ],
+    "avoid": [
+      {"name": "Mahwang (마황)", "name_latin": "Ephedra sinica", "reason": "Dispersing herb that depletes already weak Qi in So-Eum"},
+      {"name": "Taeksa (택사)", "name_latin": "Alisma plantago-aquatica", "reason": "Draining and cooling; depletes fluids and warmth that So-Eum needs to conserve"},
+      {"name": "Hwangryeon (황련)", "name_latin": "Coptis chinensis", "reason": "Extremely bitter and cold; suppresses digestive fire"}
+    ],
+    "classic_formula": "Gwankeibujauh-rhee-jung-tang (관계부자이중탕) — warms the interior and strengthens Spleen function"
+  },
+  "research_notes": {
+    "genetic": "GWAS studies have identified genetic loci associated with So-Eum type. Higher prevalence of certain HLA alleles compared to other types.",
+    "behavioral": "Studies on children show So-Eum types score significantly higher on harm-avoidance scales in temperament assessments, validating the traditional personality descriptions.",
+    "heritability": "SCM type heritability estimated at 41–55% based on twin studies (2019)."
+  }
+}

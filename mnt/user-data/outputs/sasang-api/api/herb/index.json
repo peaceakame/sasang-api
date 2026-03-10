@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "api": "Sasang Constitutional Medicine API",
+    "endpoint": "/api/herb/index.json",
+    "description": "Key herbs in Sasang constitutional medicine with compatibility ratings per type",
+    "warning": "Herbal medicine should be prescribed by a licensed Korean medicine practitioner (한의사). Constitutional misuse of herbs can cause adverse effects."
+  },
+  "herbs": [
+    {
+      "id": "ginseng",
+      "name_en": "Ginseng (White)",
+      "name_ko": "인삼",
+      "name_latin": "Panax ginseng",
+      "thermal_nature": "warm",
+      "flavor": "sweet, slightly bitter",
+      "detail_url": "/api/herb/ginseng.json",
+      "quick_guide": {
+        "tae-yang": "strictly_avoid",
+        "so-yang": "avoid",
+        "tae-eum": "moderate_benefit",
+        "so-eum": "highly_beneficial"
+      }
+    },
+    {
+      "id": "astragalus",
+      "name_en": "Astragalus / Hwanggi",
+      "name_ko": "황기",
+      "name_latin": "Astragalus membranaceus",
+      "thermal_nature": "warm",
+      "flavor": "sweet",
+      "quick_guide": {
+        "tae-yang": "avoid",
+        "so-yang": "avoid",
+        "tae-eum": "neutral",
+        "so-eum": "highly_beneficial"
+      }
+    },
+    {
+      "id": "rehmannia",
+      "name_en": "Rehmannia (Processed) / Sukjihwang",
+      "name_ko": "숙지황",
+      "name_latin": "Rehmannia glutinosa (processed)",
+      "thermal_nature": "slightly warm",
+      "flavor": "sweet",
+      "quick_guide": {
+        "tae-yang": "neutral",
+        "so-yang": "highly_beneficial",
+        "tae-eum": "caution",
+        "so-eum": "beneficial"
+      }
+    },
+    {
+      "id": "ephedra",
+      "name_en": "Ephedra / Mahwang",
+      "name_ko": "마황",
+      "name_latin": "Ephedra sinica",
+      "thermal_nature": "warm",
+      "flavor": "pungent, bitter",
+      "quick_guide": {
+        "tae-yang": "caution",
+        "so-yang": "caution",
+        "tae-eum": "highly_beneficial",
+        "so-eum": "avoid"
+      }
+    },
+    {
+      "id": "aconite",
+      "name_en": "Aconite (Processed) / Bujauh",
+      "name_ko": "부자",
+      "name_latin": "Aconitum carmichaelii (processed)",
+      "thermal_nature": "hot",
+      "flavor": "pungent, sweet",
+      "quick_guide": {
+        "tae-yang": "strictly_avoid",
+        "so-yang": "strictly_avoid",
+        "tae-eum": "avoid",
+        "so-eum": "highly_beneficial"
+      }
+    },
+    {
+      "id": "coptis",
+      "name_en": "Coptis / Hwangryeon",
+      "name_ko": "황련",
+      "name_latin": "Coptis chinensis",
+      "thermal_nature": "cold",
+      "flavor": "bitter",
+      "quick_guide": {
+        "tae-yang": "beneficial",
+        "so-yang": "beneficial",
+        "tae-eum": "neutral",
+        "so-eum": "avoid"
+      }
+    },
+    {
+      "id": "bellflower-root",
+      "name_en": "Bellflower Root / Doraji",
+      "name_ko": "도라지",
+      "name_latin": "Platycodon grandiflorus",
+      "thermal_nature": "neutral",
+      "flavor": "bitter, pungent",
+      "quick_guide": {
+        "tae-yang": "beneficial",
+        "so-yang": "neutral",
+        "tae-eum": "highly_beneficial",
+        "so-eum": "neutral"
+      }
+    },
+    {
+      "id": "deer-antler",
+      "name_en": "Deer Antler / Nokyong",
+      "name_ko": "녹용",
+      "name_latin": "Cervus elaphus (antler velvet)",
+      "thermal_nature": "warm",
+      "flavor": "sweet, salty",
+      "quick_guide": {
+        "tae-yang": "strictly_avoid",
+        "so-yang": "avoid",
+        "tae-eum": "caution",
+        "so-eum": "highly_beneficial"
+      }
+    }
+  ]
+}

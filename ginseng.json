@@ -1,0 +1,60 @@
+{
+  "id": "ginseng",
+  "name_en": "Ginseng",
+  "name_ko": "인삼",
+  "name_latin": "Panax ginseng C.A.Meyer",
+  "family": "Araliaceae",
+  "thermal_nature": "warm",
+  "flavor": "sweet, slightly bitter",
+  "meridian_affinity": ["Spleen", "Lung", "Heart"],
+  "primary_actions": [
+    "Powerfully tonifies Qi (vital energy)",
+    "Strengthens the Spleen and supports digestion",
+    "Tonifies Lung Qi",
+    "Generates fluids",
+    "Calms the spirit"
+  ],
+  "context": {
+    "industry": "Korea exports approximately $754 million in ginseng products annually as of recent data",
+    "paradox": "Korean traditional medicine classifies ~60% of the population (So-Yang + Tae-Yang types) as constitutionally incompatible with ginseng, yet it is marketed universally as a health tonic",
+    "explanation": "The adverse reactions many people experience with ginseng are not random allergies — they are predictable constitutional responses. Ginseng is warming; hot constitutions overheat."
+  },
+  "constitutional_guidance": {
+    "tae-yang": {
+      "recommendation": "strictly_avoid",
+      "safety_level": "dangerous",
+      "explanation": "Tae-Yang is the hottest and most Yang-excess constitution. Ginseng's warming Qi-tonic action adds fuel to fire. Can cause severe headaches, hypertension, nosebleeds, and dangerous internal heat accumulation.",
+      "adverse_effects": ["Severe headache", "Hypertension", "Nosebleeds", "Extreme agitation", "Heat stroke risk"],
+      "alternatives": ["Ogapi / Acanthopanax (오가피) — strengthens without heating", "Mohgwa / Chaenomeles (모과) — supports joints and lower body"]
+    },
+    "so-yang": {
+      "recommendation": "avoid",
+      "safety_level": "harmful",
+      "explanation": "So-Yang runs hot with a strong Spleen and weak Kidney. Ginseng strengthens what is already strong (Spleen/digestion) and adds heat that the weak Kidney cannot cool. Results in internal heat accumulation.",
+      "adverse_effects": ["Headaches", "Insomnia", "Skin breakouts and acne", "Heart palpitations", "Irritability", "Elevated blood pressure", "Constipation"],
+      "alternatives": ["Sukjihwang / Rehmannia (숙지황) — nourishes Kidney Yin and cools", "Sansuyu / Cornus (산수유) — strengthens Kidney without adding heat"]
+    },
+    "tae-eum": {
+      "recommendation": "moderate_benefit",
+      "safety_level": "generally_safe",
+      "explanation": "Tae-Eum can tolerate ginseng because their constitution is not excessively hot. However, their strong Liver (storage) function means ginseng's tonic effect may promote further accumulation. Best used in combination with dispersing herbs like Mahwang or Kilgyeong.",
+      "adverse_effects": ["May contribute to weight gain if overused", "Can promote stagnation if used without dispersing herbs"],
+      "usage_notes": "Use in formulas that include Lung-opening herbs. Not recommended as a standalone daily supplement for Tae-Eum.",
+      "synergistic_herbs": ["Mahwang / Ephedra (마황)", "Kilgyeong / Platycodon (길경)", "Galgeun / Kudzu (갈근)"]
+    },
+    "so-eum": {
+      "recommendation": "highly_beneficial",
+      "safety_level": "therapeutic",
+      "explanation": "So-Eum is the type that benefits most from ginseng. Their weak Spleen (digestion) and cold constitution make ginseng almost medicinal: it provides exactly the warmth, Qi support, and digestive strength they lack. This is why ginseng exists in Korean medicine.",
+      "adverse_effects": ["Rarely any when used appropriately", "Very high doses may cause mild restlessness"],
+      "usage_notes": "Can be used as a regular supplement. Ginseng tea, ginseng chicken soup (삼계탕), and ginseng extract are all excellent for So-Eum types.",
+      "synergistic_herbs": ["Hwanggi / Astragalus (황기)", "Baekchul / Atractylodes (백출)", "Daechu / Jujube (대추)", "Gangang / Dried ginger (건강)"]
+    }
+  },
+  "forms": {
+    "white_ginseng": {"name_ko": "백삼", "thermal": "warm", "note": "Standard dried ginseng. Milder than red ginseng."},
+    "red_ginseng": {"name_ko": "홍삼", "thermal": "hot", "note": "Steamed and dried. More heating than white ginseng. So-Yang and Tae-Yang should avoid even more strictly."},
+    "fresh_ginseng": {"name_ko": "수삼", "thermal": "slightly warm", "note": "Mildest form. Still warming but less concentrated."},
+    "black_ginseng": {"name_ko": "흑삼", "thermal": "hot", "note": "Repeatedly steamed. Most heating form. Only appropriate for So-Eum types."}
+  }
+}

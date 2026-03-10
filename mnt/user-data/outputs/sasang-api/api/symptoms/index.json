@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "api": "Sasang Constitutional Medicine API",
+    "endpoint": "/api/symptoms/index.json",
+    "description": "Common symptoms and their constitutional associations. A symptom may appear in multiple types but with different underlying mechanisms.",
+    "warning": "This is educational reference data, not a diagnostic tool. Constitutional typing requires evaluation by a licensed Korean medicine practitioner (한의사) who considers the full clinical picture."
+  },
+  "symptoms": [
+    {
+      "symptom": "Frequent headaches",
+      "associated_types": [
+        {"type": "tae-yang", "mechanism": "Excess Yang rising to the head due to strong Lung (dispersal) pushing energy upward", "frequency": "common"},
+        {"type": "so-yang", "mechanism": "Internal heat rising to the head. Often accompanied by facial flushing and irritability", "frequency": "common"}
+      ]
+    },
+    {
+      "symptom": "Weight gain / difficulty losing weight",
+      "associated_types": [
+        {"type": "tae-eum", "mechanism": "Strong Liver (storage) absorbs and retains nutrients efficiently while weak Lung (dispersal) fails to expel and metabolize. This is the most weight-gain-prone type by a significant margin.", "frequency": "very_common"}
+      ]
+    },
+    {
+      "symptom": "Cold hands and feet",
+      "associated_types": [
+        {"type": "so-eum", "mechanism": "Weak Spleen (digestion) fails to generate sufficient warmth and Qi for circulation to the extremities. Core temperature is constitutionally low.", "frequency": "very_common"}
+      ]
+    },
+    {
+      "symptom": "Digestive issues (bloating, indigestion)",
+      "associated_types": [
+        {"type": "so-eum", "mechanism": "Weak Spleen means inherently poor digestive capacity. Bloating, loose stools, and poor appetite are constitutional.", "frequency": "very_common"},
+        {"type": "tae-eum", "mechanism": "Can experience digestive sluggishness due to overconsumption overwhelming the system, despite having reasonable digestive capacity", "frequency": "occasional"}
+      ]
+    },
+    {
+      "symptom": "Skin breakouts / acne",
+      "associated_types": [
+        {"type": "so-yang", "mechanism": "Internal heat manifests through the skin. Inflammatory acne, especially on the face and upper body.", "frequency": "common"},
+        {"type": "tae-eum", "mechanism": "Weak Lung function impairs skin (Lung governs skin in Korean medicine). Body acne, eczema, and slow-healing blemishes.", "frequency": "common"}
+      ]
+    },
+    {
+      "symptom": "Insomnia / difficulty sleeping",
+      "associated_types": [
+        {"type": "so-yang", "mechanism": "Excess internal heat disturbs the spirit. Mind races, difficulty calming down at night.", "frequency": "common"},
+        {"type": "tae-yang", "mechanism": "Strong outward energy makes it difficult to settle inward for sleep.", "frequency": "common"}
+      ]
+    },
+    {
+      "symptom": "Chronic fatigue / low energy",
+      "associated_types": [
+        {"type": "so-eum", "mechanism": "Weak Spleen cannot generate sufficient Qi (energy) from food. Chronic baseline low energy, worsened by cold weather or cold food.", "frequency": "very_common"}
+      ]
+    },
+    {
+      "symptom": "Constipation",
+      "associated_types": [
+        {"type": "so-yang", "mechanism": "Internal heat dries intestinal fluids. Hot, dry constipation with hard stools.", "frequency": "common"},
+        {"type": "tae-eum", "mechanism": "Sluggish elimination due to weak Lung (dispersal) function. More sluggish than dry.", "frequency": "occasional"}
+      ]
+    },
+    {
+      "symptom": "Diarrhea / loose stools",
+      "associated_types": [
+        {"type": "so-eum", "mechanism": "Weak Spleen cannot properly transform and transport fluids. Cold diarrhea, especially after eating cold foods or in cold weather.", "frequency": "very_common"}
+      ]
+    },
+    {
+      "symptom": "Excessive sweating",
+      "associated_types": [
+        {"type": "tae-eum", "mechanism": "Tae-Eum types often sweat profusely with exertion. Sweating is actually therapeutic — it activates their weak Lung (dispersal) function.", "frequency": "common"},
+        {"type": "so-yang", "mechanism": "Heat-driven sweating. May sweat easily even without much exertion.", "frequency": "occasional"}
+      ]
+    },
+    {
+      "symptom": "Anxiety and worry",
+      "associated_types": [
+        {"type": "so-eum", "mechanism": "Constitutional tendency toward harm-avoidance and cautious thinking. Worry depletes already low Spleen Qi, creating a negative cycle.", "frequency": "common"}
+      ]
+    },
+    {
+      "symptom": "Respiratory issues (asthma, chronic cough)",
+      "associated_types": [
+        {"type": "tae-eum", "mechanism": "Weak Lung is the defining weakness of Tae-Eum. Asthma, chronic bronchitis, phlegm accumulation, and respiratory sensitivity are constitutional.", "frequency": "very_common"}
+      ]
+    },
+    {
+      "symptom": "Adverse reaction to ginseng",
+      "associated_types": [
+        {"type": "tae-yang", "mechanism": "Ginseng adds extreme warmth to already maximum Yang. Severe reactions possible.", "frequency": "nearly_certain"},
+        {"type": "so-yang", "mechanism": "Ginseng adds heat that weak Kidney cannot cool. Headaches, insomnia, palpitations, breakouts.", "frequency": "very_common"}
+      ]
+    }
+  ]
+}
